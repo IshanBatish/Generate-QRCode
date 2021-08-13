@@ -1,3 +1,22 @@
+*{
+  margin:auto;
+  padding:auto;
+  align-self: center;
+}
+h1{
+  background-color: whitesmoke;
+  border-top: hidden;
+  text-align: center;
+  background-size: cover;
+  margin: 0;
+  color: black;
+  background-repeat :no-repeat;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+body{
+  background: linear-gradient(#e66465, #9198e5);
+}
 .Container{
   display: flex;
   flex-direction: column;
@@ -8,7 +27,46 @@
 }
 
 #qrcode {
-  border: 1px solid black;
   height: 250px;
-  
+  width: 700px;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+.qrcode:hover{
+    transform: translateY(-10px);
+}
+.button{
+  background-color:darkolivegreen;
+  transition-duration: 0.4s;
+  box-shadow: inherit;
+}
+
+.button{
+    float: right;
+    padding: 10px 100px;
+    background: #555;
+    color:#fff;
+    border-radius: 10px;
+    border:none;
+    margin-right: 10px;
+}
+
+.button:hover{
+    opacity: .7;
+}
+.button:focus{
+    opacity: .80;
+}
+.input{
+    display:block;
+    border: 2px slodi #ccc;
+    width: 95%;
+    padding: 10px;
+    margin:10px auto;
 }
